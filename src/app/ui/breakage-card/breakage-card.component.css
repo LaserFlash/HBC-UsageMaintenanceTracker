@@ -2,11 +2,10 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
-@media (min-width:1279px) {
+@media (min-width: 1279px) {
   .breakage-card {
     padding-bottom: 0px;
   }
-
 }
 
 .breakage-card-left {
@@ -33,14 +32,20 @@
 
 /deep/ .mat-card-image {
   max-height: 300px !important;
-  margin-bottom: -6px !important; 
+  margin-bottom: -6px !important;
   object-fit: cover;
 }
 
-@media (min-width:600px) {
+.mat-card-avatar {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+@media (min-width: 600px) {
   /deep/ .mat-card-image {
     margin-bottom: -6px !important;
-    min-height:350px !important;
+    min-height: 350px !important;
     object-fit: cover;
     display: inline-block;
   }

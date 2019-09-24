@@ -1,4 +1,4 @@
-.usageCard{
+.usageCard {
   width: 100%;
   margin-top: 4px;
 }
@@ -10,7 +10,7 @@
 
 .nameWidth {
   min-width: 15ch;
-  max-width: 15ch
+  max-width: 15ch;
 }
 
 .smallPadding {
@@ -46,7 +46,13 @@
   min-height: 80px !important;
 }
 
-@media (max-width:600px) {
+.mat-list-avatar {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+@media (max-width: 600px) {
   .headerMinHeight {
     height: 130px !important;
   }
