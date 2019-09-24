@@ -1,6 +1,6 @@
 export const environment = {
   production: true,
-  version: "0.0.0",
+  version: "1.0.0",
   firebase: {
     apiKey: "AIzaSyAMcLPFzdpH97ctswmfT0KoKQSCSIGGmbw",
     authDomain: "hbc-boats.firebaseapp.com",
