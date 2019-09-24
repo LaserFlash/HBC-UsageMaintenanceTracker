@@ -1,6 +1,6 @@
 {
   "projects": {
-    "default": "npyc-usagemaintenancetracker",
+    "default": "hbc-boats",
     "dev": "npyc-dev"
   }
 }
