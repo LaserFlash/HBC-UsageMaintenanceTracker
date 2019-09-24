@@ -14,7 +14,7 @@ export class ThemeTrackerService {
 
   constructor(private cookieService: CookieService) {
     /* Load state from Cookie*/
-    this.isDark.next(this.cookieService.get('npyc') === '1');
+    this.isDark.next(this.cookieService.get('HBC') === '1');
    }
 
   /* Update the theme state and store in cookie */
@@ -23,7 +23,7 @@ export class ThemeTrackerService {
 
     // Save in a cookie
     const cookieOptions: CookieOptions = { expires: new Date(32525112147000)};
-    this.cookieService.put('npyc', (b ? 1 : 0).toString(), cookieOptions);
+    this.cookieService.put('HBC', (b ? 1 : 0).toString(), cookieOptions);
   }
 
 }

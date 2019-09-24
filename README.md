@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/LaserFlash/NPYC-UsageMaintenanceTracker.svg?branch=master)](https://travis-ci.org/LaserFlash/NPYC-UsageMaintenanceTracker)
+[![Build Status](https://travis-ci.org/LaserFlash/HBC-UsageMaintenanceTracker.svg?branch=master)](https://travis-ci.org/LaserFlash/HBC-UsageMaintenanceTracker)
 
-# NPYC UsageMaintenanceTracker
+# HBC UsageMaintenanceTracker
 
-https://npyc-usagemaintenancetracker.firebaseapp.com/ Built using Angular 8 and
+https://HBC-usagemaintenancetracker.firebaseapp.com/ Built using Angular 8 and
 Material2.
 
 ## Project Structure / Architecture

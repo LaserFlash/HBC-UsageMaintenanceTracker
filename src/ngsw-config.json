@@ -1,7 +1,7 @@
 {
   "index": "/index.html",
   "assetGroups": [{
-    "name": "NPYC",
+    "name": "HBC",
     "installMode": "prefetch",
     "resources": {
       "files": [

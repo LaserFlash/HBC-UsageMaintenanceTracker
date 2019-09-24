@@ -16,7 +16,7 @@ import { environment } from '../environments/environment';
   viewProviders: [MatIconRegistry]
 })
 export class AppComponent implements OnInit {
-  title = 'NPYC';
+  title = 'HBC';
   build: string;
   isDarkTheme: boolean;
   public themeBackground = "#eceff1";
